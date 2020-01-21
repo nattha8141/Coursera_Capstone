@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fd995e80be9a45b6afc64513808da921 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fd995e80be9a45b6afc64513808da921" ></div>
+        
+</body>
+<script>    
+    
+            var map_fd995e80be9a45b6afc64513808da921 = L.map(
+                "map_fd995e80be9a45b6afc64513808da921",
+                {
+                    center: [-6.1753942, 106.827183],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc7ac5ed9af64dc09f0a63f15b4fa62e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+            var circle_marker_cc3c607fd14a4df6b48c1e5127c3ddc9 = L.circleMarker(
+                [-6.196229999999957, 106.93522000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_30241802a5e24eb5861c8bcd703f7b0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d36d3a84c0b423eba6029c0c5515577 = $(`<div id="html_1d36d3a84c0b423eba6029c0c5515577" style="width: 100.0%; height: 100.0%;">Neighborhood = CAKUNG BARAT,CAKUNG TIMUR,JATINEGARA,PENGGILINGAN,PULO GEBANG,RAWA TERATE,UJUNG MENTENG, District = CAKUNG, population = 461622, distance = 9.53615696443047 km</div>`)[0];
+            popup_30241802a5e24eb5861c8bcd703f7b0c.setContent(html_1d36d3a84c0b423eba6029c0c5515577);
+        
+
+        circle_marker_cc3c607fd14a4df6b48c1e5127c3ddc9.bindPopup(popup_30241802a5e24eb5861c8bcd703f7b0c)
+        ;
+
+        
+    
+    
+            var circle_marker_0dfadb2ecbc046a380dc69c4b3b8ec93 = L.circleMarker(
+                [-6.175999999999931, 106.87060000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_16d19649850947a5952eb330b3af5250 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2d8b45395994c529a6318f47608bbb2 = $(`<div id="html_d2d8b45395994c529a6318f47608bbb2" style="width: 100.0%; height: 100.0%;">Neighborhood = CEMPAKA PUTIH BARAT,CEMPAKA PUTIH TIMUR,RAWASARI, District = CEMPAKA PUTIH, population = 89799, distance = 2.047532964349695 km</div>`)[0];
+            popup_16d19649850947a5952eb330b3af5250.setContent(html_d2d8b45395994c529a6318f47608bbb2);
+        
+
+        circle_marker_0dfadb2ecbc046a380dc69c4b3b8ec93.bindPopup(popup_16d19649850947a5952eb330b3af5250)
+        ;
+
+        
+    
+    
+            var circle_marker_01dc81735d2a4078b54ff2ac281f32d8 = L.circleMarker(
+                [-6.1305999999999585, 106.74559000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_93641971bcd6405682ebb1d40b6c3482 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b910734c1e6d488b9cd47ca20890aaf4 = $(`<div id="html_b910734c1e6d488b9cd47ca20890aaf4" style="width: 100.0%; height: 100.0%;">Neighborhood = CENGKARENG BARAT,CENGKARENG TIMUR,DURI KOSAMBI,KAPUK,KEDAUNG KALI ANGKE,RAWA BUAYA, District = CENGKARENG, population = 457629, distance = 12.672799254537349 km</div>`)[0];
+            popup_93641971bcd6405682ebb1d40b6c3482.setContent(html_b910734c1e6d488b9cd47ca20890aaf4);
+        
+
+        circle_marker_01dc81735d2a4078b54ff2ac281f32d8.bindPopup(popup_93641971bcd6405682ebb1d40b6c3482)
+        ;
+
+        
+    
+    
+            var circle_marker_76b1ed04ed7b4b4f828806d215b1b3ef = L.circleMarker(
+                [-6.2905099999999265, 106.79491000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_44dff362b645498c8b8a88a512e8676b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ab5845705874782a7414dd2d3ca285b = $(`<div id="html_5ab5845705874782a7414dd2d3ca285b" style="width: 100.0%; height: 100.0%;">Neighborhood = CILANDAK BARAT,CIPETE SELATAN,GANDARIA SELATAN,LEBAK BULUS,PONDOK LABU, District = CILANDAK, population = 189780, distance = 14.747089030361034 km</div>`)[0];
+            popup_44dff362b645498c8b8a88a512e8676b.setContent(html_5ab5845705874782a7414dd2d3ca285b);
+        
+
+        circle_marker_76b1ed04ed7b4b4f828806d215b1b3ef.bindPopup(popup_44dff362b645498c8b8a88a512e8676b)
+        ;
+
+        
+    
+    
+            var circle_marker_1d76869e529e48e9a328472ba65d250a = L.circleMarker(
+                [-6.113579999999956, 106.94911000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_246b7efa8aae4192a9d9fd7aef7d49c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_587a5e6036c840abbe92ab22c2dd5c91 = $(`<div id="html_587a5e6036c840abbe92ab22c2dd5c91" style="width: 100.0%; height: 100.0%;">Neighborhood = CILINCING,KALIBARU,MARUNDA,ROROTAN,SEMPER BARAT,SEMPER TIMUR,SUKAPURA, District = CILINCING, population = 349075, distance = 12.418459822965987 km</div>`)[0];
+            popup_246b7efa8aae4192a9d9fd7aef7d49c0.setContent(html_587a5e6036c840abbe92ab22c2dd5c91);
+        
+
+        circle_marker_1d76869e529e48e9a328472ba65d250a.bindPopup(popup_246b7efa8aae4192a9d9fd7aef7d49c0)
+        ;
+
+        
+    
+    
+            var circle_marker_797d99d085824f8887319d5a875f15c8 = L.circleMarker(
+                [-6.326729999999941, 106.90298000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_5fe4edf87b8e4442b08436a3ed32576f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6292902dfe7a4aa4b873e1f9bf6ab357 = $(`<div id="html_6292902dfe7a4aa4b873e1f9bf6ab357" style="width: 100.0%; height: 100.0%;">Neighborhood = BAMBU APUS,CEGER,CILANGKAP,CIPAYUNG,LUBANG BUAYA,MUNJUL,PONDOK RANGGON,SETU, District = CIPAYUNG, population = 237204, distance = 18.18300745540244 km</div>`)[0];
+            popup_5fe4edf87b8e4442b08436a3ed32576f.setContent(html_6292902dfe7a4aa4b873e1f9bf6ab357);
+        
+
+        circle_marker_797d99d085824f8887319d5a875f15c8.bindPopup(popup_5fe4edf87b8e4442b08436a3ed32576f)
+        ;
+
+        
+    
+    
+            var circle_marker_1ecb58f7e26b42289e375a79757348db = L.circleMarker(
+                [-6.3287899999999695, 106.88475000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_0ff7d5d93c664324bc23e97089575dfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67bf6bcc26e14d388414989e05820ae2 = $(`<div id="html_67bf6bcc26e14d388414989e05820ae2" style="width: 100.0%; height: 100.0%;">Neighborhood = CIBUBUR,CIRACAS,KELAPA DUA WETAN,RAMBUTAN,SUSUKAN, District = CIRACAS, population = 263342, distance = 17.896966420712996 km</div>`)[0];
+            popup_0ff7d5d93c664324bc23e97089575dfd.setContent(html_67bf6bcc26e14d388414989e05820ae2);
+        
+
+        circle_marker_1ecb58f7e26b42289e375a79757348db.bindPopup(popup_0ff7d5d93c664324bc23e97089575dfd)
+        ;
+
+        
+    
+    
+            var circle_marker_f34e17ea6c084208b571288ac4c6ebee = L.circleMarker(
+                [-6.2350099999999316, 106.92261000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_51b27a7d822b4f6c8567789bcf67945e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2494e91f0d794223ac23c221bcf2eea9 = $(`<div id="html_2494e91f0d794223ac23c221bcf2eea9" style="width: 100.0%; height: 100.0%;">Neighborhood = DUREN SAWIT,KLENDER,MALAKA JAYA,MALAKA SARI,PONDOK BAMBU,PONDOK KELAPA,PONDOK KOPI, District = DUREN SAWIT, population = 372835, distance = 10.499845540669295 km</div>`)[0];
+            popup_51b27a7d822b4f6c8567789bcf67945e.setContent(html_2494e91f0d794223ac23c221bcf2eea9);
+        
+
+        circle_marker_f34e17ea6c084208b571288ac4c6ebee.bindPopup(popup_51b27a7d822b4f6c8567789bcf67945e)
+        ;
+
+        
+    
+    
+            var circle_marker_f32592386c83425291788c48fd54d364 = L.circleMarker(
+                [-6.17298999999997, 106.81571000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_5e2f8eabf52b4456861d16b0da566f03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3bf374f25e9464d92d99cd645f9c258 = $(`<div id="html_b3bf374f25e9464d92d99cd645f9c258" style="width: 100.0%; height: 100.0%;">Neighborhood = CIDENG,DURI PULO,GAMBIR,KEBON KELAPA,PETOJO SELATAN,PETOJO UTARA, District = GAMBIR, population = 94310, distance = 4.103135954606297 km</div>`)[0];
+            popup_5e2f8eabf52b4456861d16b0da566f03.setContent(html_b3bf374f25e9464d92d99cd645f9c258);
+        
+
+        circle_marker_f32592386c83425291788c48fd54d364.bindPopup(popup_5e2f8eabf52b4456861d16b0da566f03)
+        ;
+
+        
+    
+    
+            var circle_marker_a615e857d58a44ab914a9288054c4622 = L.circleMarker(
+                [-6.167769999999962, 106.78460000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_63db6e5475bf438aac62cf4e0972b984 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50f682bc47064a03b83ccc868d29cd36 = $(`<div id="html_50f682bc47064a03b83ccc868d29cd36" style="width: 100.0%; height: 100.0%;">Neighborhood = GROGOL,JELAMBAR,JELAMBAR BARU,TANJUNG DUREN SELATAN,TANJUNG DUREN UTARA,TOMANG,WIJAYA KUSUMA, District = GROGOL PETAMBURAN, population = 205166, distance = 7.54507985359724 km</div>`)[0];
+            popup_63db6e5475bf438aac62cf4e0972b984.setContent(html_50f682bc47064a03b83ccc868d29cd36);
+        
+
+        circle_marker_a615e857d58a44ab914a9288054c4622.bindPopup(popup_63db6e5475bf438aac62cf4e0972b984)
+        ;
+
+        
+    
+    
+            var circle_marker_63d99fa095024a748aade9ef31036df3 = L.circleMarker(
+                [-6.343079999999929, 106.81745000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_256b7097d9aa4030b36de34189a04172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74736807e7d741c08b09ed185d17997e = $(`<div id="html_74736807e7d741c08b09ed185d17997e" style="width: 100.0%; height: 100.0%;">Neighborhood = CIGANJUR,CIPEDAK,JAGAKARSA,LENTENG AGUNG,SRENGSENG SAWAH,TANJUNG BARAT, District = JAGAKARSA, population = 297685, distance = 19.52769435507875 km</div>`)[0];
+            popup_256b7097d9aa4030b36de34189a04172.setContent(html_74736807e7d741c08b09ed185d17997e);
+        
+
+        circle_marker_63d99fa095024a748aade9ef31036df3.bindPopup(popup_256b7097d9aa4030b36de34189a04172)
+        ;
+
+        
+    
+    
+            var circle_marker_74fa0aa549d5400c9780273bc371c78a = L.circleMarker(
+                [-6.232649999999978, 106.88539000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_34e9b6c0f29b43ba858a43b96c088bca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1099346b089447684231b27160eb957 = $(`<div id="html_f1099346b089447684231b27160eb957" style="width: 100.0%; height: 100.0%;">Neighborhood = BALI MESTER,BIDARA CINA,CIPINANG BESAR SELATAN,CIPINANG BESAR UTARA,CIPINANG CEMPEDAK,CIPINANG MUARA,KAMPUNG MELAYU,RAWA BUNGA, District = JATINEGARA, population = 280105, distance = 7.744732488964548 km</div>`)[0];
+            popup_34e9b6c0f29b43ba858a43b96c088bca.setContent(html_f1099346b089447684231b27160eb957);
+        
+
+        circle_marker_74fa0aa549d5400c9780273bc371c78a.bindPopup(popup_34e9b6c0f29b43ba858a43b96c088bca)
+        ;
+
+        
+    
+    
+            var circle_marker_6843b46c9dae42759cb1558e020d08f0 = L.circleMarker(
+                [-6.185889999999972, 106.85593000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_c7123e90ef3740788a69062d1dc13f03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18e377368f3842b480eacb2067d1556e = $(`<div id="html_18e377368f3842b480eacb2067d1556e" style="width: 100.0%; height: 100.0%;">Neighborhood = GALUR,JOHAR BARU,KAMPUNG RAWA,TANAH TINGGI, District = JOHAR BARU, population = 125057, distance = 1.6911194970809418 km</div>`)[0];
+            popup_c7123e90ef3740788a69062d1dc13f03.setContent(html_18e377368f3842b480eacb2067d1556e);
+        
+
+        circle_marker_6843b46c9dae42759cb1558e020d08f0.bindPopup(popup_c7123e90ef3740788a69062d1dc13f03)
+        ;
+
+        
+    
+    
+            var circle_marker_79f60b2f5e3a484d996c57dfbb7f2050 = L.circleMarker(
+                [-6.122099999999932, 106.70727000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_debaef6f875b49e6b08d0467b4bec9de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de79487d267b48a4867e12d2c6678c70 = $(`<div id="html_de79487d267b48a4867e12d2c6678c70" style="width: 100.0%; height: 100.0%;">Neighborhood = KALIDERES,KAMAL,PEGADUNGAN,SEMANAN,TEGAL ALUR, District = KALI DERES, population = 361274, distance = 16.98052836554404 km</div>`)[0];
+            popup_debaef6f875b49e6b08d0467b4bec9de.setContent(html_de79487d267b48a4867e12d2c6678c70);
+        
+
+        circle_marker_79f60b2f5e3a484d996c57dfbb7f2050.bindPopup(popup_debaef6f875b49e6b08d0467b4bec9de)
+        ;
+
+        
+    
+    
+            var circle_marker_bd7bbe3a64e54e4785490d8975706da4 = L.circleMarker(
+                [-6.251469999999927, 106.79754000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_a74e323840674edfaba9bf4fdb34dbe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ecbffd736d346e4909177985a22f08b = $(`<div id="html_3ecbffd736d346e4909177985a22f08b" style="width: 100.0%; height: 100.0%;">Neighborhood = CIPETE UTARA,GANDARIA UTARA,GUNUNG,KRAMAT PELA,MELAWAI,PETOGOGAN,PULO,RAWA BARAT,SELONG,SENAYAN, District = KEBAYORAN BARU, population = 142478, distance = 10.831570658013716 km</div>`)[0];
+            popup_a74e323840674edfaba9bf4fdb34dbe1.setContent(html_3ecbffd736d346e4909177985a22f08b);
+        
+
+        circle_marker_bd7bbe3a64e54e4785490d8975706da4.bindPopup(popup_a74e323840674edfaba9bf4fdb34dbe1)
+        ;
+
+        
+    
+    
+            var circle_marker_22e4091d5e9c4476afe06ded2bcf6cb9 = L.circleMarker(
+                [-6.263859999999966, 106.77519000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_c483661063e5405784b972f6fc73e65e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cea0bd383bec4c2bb0cc94a5f7aba3dd = $(`<div id="html_cea0bd383bec4c2bb0cc94a5f7aba3dd" style="width: 100.0%; height: 100.0%;">Neighborhood = CIPULIR,GROGOL SELATAN,GROGOL UTARA,KEBAYORAN LAMA SELATAN,KEBAYORAN LAMA UTARA,PONDOK PINANG, District = KEBAYORAN LAMA, population = 281516, distance = 13.42177363339892 km</div>`)[0];
+            popup_c483661063e5405784b972f6fc73e65e.setContent(html_cea0bd383bec4c2bb0cc94a5f7aba3dd);
+        
+
+        circle_marker_22e4091d5e9c4476afe06ded2bcf6cb9.bindPopup(popup_c483661063e5405784b972f6fc73e65e)
+        ;
+
+        
+    
+    
+            var circle_marker_1063c073933d4d6e9feaf10dfca2d537 = L.circleMarker(
+                [-6.197019999999952, 106.77308000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_ddacfbfd62c14447922b6b3dc1aabcb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_899783a2f436489cae6c3a88b86ddda0 = $(`<div id="html_899783a2f436489cae6c3a88b86ddda0" style="width: 100.0%; height: 100.0%;">Neighborhood = DURI KEPA,KEBON JERUK,KEDOYA SELATAN,KEDOYA UTARA,KELAPA DUA,SUKABUMI SELATAN,SUKABUMI UTARA, District = KEBON JERUK, population = 300905, distance = 9.272411416796821 km</div>`)[0];
+            popup_ddacfbfd62c14447922b6b3dc1aabcb1.setContent(html_899783a2f436489cae6c3a88b86ddda0);
+        
+
+        circle_marker_1063c073933d4d6e9feaf10dfca2d537.bindPopup(popup_ddacfbfd62c14447922b6b3dc1aabcb1)
+        ;
+
+        
+    
+    
+            var circle_marker_bb4072e31a8643d4943077ad8612b677 = L.circleMarker(
+                [-6.16020999999995, 106.90478000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_7740ddf1565d40e689264119fe8c7cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bdb3b9ba4404e7aa3f668031ce4232f = $(`<div id="html_5bdb3b9ba4404e7aa3f668031ce4232f" style="width: 100.0%; height: 100.0%;">Neighborhood = KELAPA GADING BARAT,KELAPA GADING TIMUR,PEGANGSAAN DUA, District = KELAPA GADING, population = 121272, distance = 5.873628575430626 km</div>`)[0];
+            popup_7740ddf1565d40e689264119fe8c7cb7.setContent(html_5bdb3b9ba4404e7aa3f668031ce4232f);
+        
+
+        circle_marker_bb4072e31a8643d4943077ad8612b677.bindPopup(popup_7740ddf1565d40e689264119fe8c7cb7)
+        ;
+
+        
+    
+    
+            var circle_marker_bcf07d3ae80d4e989832c1c4814df098 = L.circleMarker(
+                [-6.165839999999946, 106.85396000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_b1819bfaaec644cc8d30e6468335d66c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e973f9f2b53465f828a80ce00758326 = $(`<div id="html_0e973f9f2b53465f828a80ce00758326" style="width: 100.0%; height: 100.0%;">Neighborhood = CEMPAKA BARU,GUNUNG SAHARI SELATAN,HARAPAN MULIA,KEBON KOSONG,KEMAYORAN,SERDANG,SUMUR BATU,UTAN PANJANG, District = KEMAYORAN, population = 225975, distance = 0.5895807288946939 km</div>`)[0];
+            popup_b1819bfaaec644cc8d30e6468335d66c.setContent(html_0e973f9f2b53465f828a80ce00758326);
+        
+
+        circle_marker_bcf07d3ae80d4e989832c1c4814df098.bindPopup(popup_b1819bfaaec644cc8d30e6468335d66c)
+        ;
+
+        
+    
+    
+            var circle_marker_8b453c708e9c453d8da1f7bc3c8e7070 = L.circleMarker(
+                [-6.218229999999949, 106.73749000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_4ae640b1c2e84f65936324f881854eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e072bf255454489c8d6321913273c015 = $(`<div id="html_e072bf255454489c8d6321913273c015" style="width: 100.0%; height: 100.0%;">Neighborhood = JOGLO,KEMBANGAN SELATAN,KEMBANGAN UTARA,MERUYA SELATAN,MERUYA UTARA,SRENGSENG, District = KEMBANGAN, population = 237640, distance = 13.783245801345782 km</div>`)[0];
+            popup_4ae640b1c2e84f65936324f881854eb3.setContent(html_e072bf255454489c8d6321913273c015);
+        
+
+        circle_marker_8b453c708e9c453d8da1f7bc3c8e7070.bindPopup(popup_4ae640b1c2e84f65936324f881854eb3)
+        ;
+
+        
+    
+    
+            var circle_marker_fc4ade0b6afa4a0cbe2a57c46e7691ba = L.circleMarker(
+                [-5.797329999999931, 106.49630000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_36ec9b410f204a9595c6d699ad6c6ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab6d9dcee81d42949c7a71c0a744f6a3 = $(`<div id="html_ab6d9dcee81d42949c7a71c0a744f6a3" style="width: 100.0%; height: 100.0%;">Neighborhood = PULAU PARI,PULAU TIDUNG,PULAU UNTUNG JAWA, District = KEPULAUAN SERIBU SELATAN, population = 10543, distance = 57.27636425987088 km</div>`)[0];
+            popup_36ec9b410f204a9595c6d699ad6c6ce7.setContent(html_ab6d9dcee81d42949c7a71c0a744f6a3);
+        
+
+        circle_marker_fc4ade0b6afa4a0cbe2a57c46e7691ba.bindPopup(popup_36ec9b410f204a9595c6d699ad6c6ce7)
+        ;
+
+        
+    
+    
+            var circle_marker_4984a91f749e4f0980e3c2fea1589777 = L.circleMarker(
+                [-5.74536999999998, 106.61380000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_c164ebead12544d181ecbf9e193738de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0e3d898890f4a1280f53d5dade46941 = $(`<div id="html_d0e3d898890f4a1280f53d5dade46941" style="width: 100.0%; height: 100.0%;">Neighborhood = PULAU HARAPAN,PULAU KELAPA,PULAU PANGGANG, District = KEPULAUAN SERIBU UTARA, population = 15107, distance = 54.20801956456139 km</div>`)[0];
+            popup_c164ebead12544d181ecbf9e193738de.setContent(html_d0e3d898890f4a1280f53d5dade46941);
+        
+
+        circle_marker_4984a91f749e4f0980e3c2fea1589777.bindPopup(popup_c164ebead12544d181ecbf9e193738de)
+        ;
+
+        
+    
+    
+            var circle_marker_09bd0301516a4cc4aebe0294eb9c2721 = L.circleMarker(
+                [-6.127159999999947, 106.89919000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_3bec1e8aa0de4703adc3b412500fd7da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d461a5d232704f1089048ba9a539a03e = $(`<div id="html_d461a5d232704f1089048ba9a539a03e" style="width: 100.0%; height: 100.0%;">Neighborhood = KOJA,LAGOA,RAWA BADAK SELATAN,RAWA BADAK UTARA,TUGU SELATAN,TUGU UTARA, District = KOJA, population = 280444, distance = 7.0787109460016335 km</div>`)[0];
+            popup_3bec1e8aa0de4703adc3b412500fd7da.setContent(html_d461a5d232704f1089048ba9a539a03e);
+        
+
+        circle_marker_09bd0301516a4cc4aebe0294eb9c2721.bindPopup(popup_3bec1e8aa0de4703adc3b412500fd7da)
+        ;
+
+        
+    
+    
+            var circle_marker_b4a87bd1b6fa475687db208cf63c5387 = L.circleMarker(
+                [-6.283439999999928, 106.87158000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_4d03c81dc7dd4cb89a3acade1b403ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e20f25c65524a8ea594788412880651 = $(`<div id="html_8e20f25c65524a8ea594788412880651" style="width: 100.0%; height: 100.0%;">Neighborhood = BALEKAMBANG,BATU AMPAR,CAWANG,CILILITAN,DUKUH,KRAMATJATI,TENGAH, District = KRAMATJATI, population = 250849, distance = 12.673445534214304 km</div>`)[0];
+            popup_4d03c81dc7dd4cb89a3acade1b403ba5.setContent(html_8e20f25c65524a8ea594788412880651);
+        
+
+        circle_marker_b4a87bd1b6fa475687db208cf63c5387.bindPopup(popup_4d03c81dc7dd4cb89a3acade1b403ba5)
+        ;
+
+        
+    
+    
+            var circle_marker_5eafb1833611487d8a1de0b0e8c929aa = L.circleMarker(
+                [-6.285049999999956, 106.90242000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_25e33b3bcf7042efbc6a9bc0350ebd99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b8f3b69fb0048a5bcd775657a5741c8 = $(`<div id="html_0b8f3b69fb0048a5bcd775657a5741c8" style="width: 100.0%; height: 100.0%;">Neighborhood = CIPINANG MELAYU,HALIM PERDANA KUSUMAH,KEBON PALA,MAKASAR,PINANGRANTI, District = MAKASAR, population = 190190, distance = 13.817401539243255 km</div>`)[0];
+            popup_25e33b3bcf7042efbc6a9bc0350ebd99.setContent(html_0b8f3b69fb0048a5bcd775657a5741c8);
+        
+
+        circle_marker_5eafb1833611487d8a1de0b0e8c929aa.bindPopup(popup_25e33b3bcf7042efbc6a9bc0350ebd99)
+        ;
+
+        
+    
+    
+            var circle_marker_76b6714e6cfc4d40a47fa7cf256a9e77 = L.circleMarker(
+                [-6.245249999999942, 106.83148000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_81403543f19140beb9b60fa823888e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_106e39d5b9b445678feb0ecc55eb10ba = $(`<div id="html_106e39d5b9b445678feb0ecc55eb10ba" style="width: 100.0%; height: 100.0%;">Neighborhood = BANGKA,KUNINGAN BARAT,MAMPANG PRAPATAN,PELA MAMPANG,TEGAL PARANG, District = MAMPANG PRAPATAN, population = 136992, distance = 8.584200557366712 km</div>`)[0];
+            popup_81403543f19140beb9b60fa823888e7f.setContent(html_106e39d5b9b445678feb0ecc55eb10ba);
+        
+
+        circle_marker_76b6714e6cfc4d40a47fa7cf256a9e77.bindPopup(popup_81403543f19140beb9b60fa823888e7f)
+        ;
+
+        
+    
+    
+            var circle_marker_6103e226908a4302a2a64714198bf17d = L.circleMarker(
+                [-6.199829999999963, 106.86268000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_834a08b2e070448ca1ec0da08a9a630a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e834466e154454db4b361599e897ae9 = $(`<div id="html_9e834466e154454db4b361599e897ae9" style="width: 100.0%; height: 100.0%;">Neighborhood = KAYU MANIS,KEBON MANGGIS,PALMERIAM,PISANGAN BARU,UTAN KAYU SELATAN,UTAN KAYU UTARA, District = MATRAMAN, population = 166222, distance = 3.3867551312327673 km</div>`)[0];
+            popup_834a08b2e070448ca1ec0da08a9a630a.setContent(html_9e834466e154454db4b361599e897ae9);
+        
+
+        circle_marker_6103e226908a4302a2a64714198bf17d.bindPopup(popup_834a08b2e070448ca1ec0da08a9a630a)
+        ;
+
+        
+    
+    
+            var circle_marker_be3aed3851134177884b02f931973507 = L.circleMarker(
+                [-6.203109999999981, 106.83798000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_892d2ff3494f4c14a18de8c99d5309b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb1f93eccc474b1c9dc53bbdbb2a9bde = $(`<div id="html_cb1f93eccc474b1c9dc53bbdbb2a9bde" style="width: 100.0%; height: 100.0%;">Neighborhood = CIKINI,GONDANGDIA,KEBON SIRIH,MENTENG,PEGANGSAAN, District = MENTENG, population = 82277, distance = 3.9261981794293646 km</div>`)[0];
+            popup_892d2ff3494f4c14a18de8c99d5309b1.setContent(html_cb1f93eccc474b1c9dc53bbdbb2a9bde);
+        
+
+        circle_marker_be3aed3851134177884b02f931973507.bindPopup(popup_892d2ff3494f4c14a18de8c99d5309b1)
+        ;
+
+        
+    
+    
+            var circle_marker_56f5278536cc4b3aa2f0bfb43419e6a1 = L.circleMarker(
+                [-6.134389999999939, 106.83661000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_005cc7c2d2844470a34238cb5bba13a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56ad37ae628049689fb72fe394e48d25 = $(`<div id="html_56ad37ae628049689fb72fe394e48d25" style="width: 100.0%; height: 100.0%;">Neighborhood = ANCOL,PADEMANGAN BARAT,PADEMANGAN TIMUR, District = PADEMANGAN, population = 143803, distance = 4.446630489151997 km</div>`)[0];
+            popup_005cc7c2d2844470a34238cb5bba13a3.setContent(html_56ad37ae628049689fb72fe394e48d25);
+        
+
+        circle_marker_56f5278536cc4b3aa2f0bfb43419e6a1.bindPopup(popup_005cc7c2d2844470a34238cb5bba13a3)
+        ;
+
+        
+    
+    
+            var circle_marker_1dea015a74ac4dda93c6665c20a288da = L.circleMarker(
+                [-6.191529999999943, 106.79556000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_0c9ae2e188994dfc90d2093ccc1a1506 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98b072459680404b887f3bafadf9a746 = $(`<div id="html_98b072459680404b887f3bafadf9a746" style="width: 100.0%; height: 100.0%;">Neighborhood = JATIPULO,KEMANGGISAN,KOTA BAMBU SELATAN,KOTA BAMBU UTARA,PALMERAH,SLIPI, District = PAL MERAH, population = 190738, distance = 6.723731565860076 km</div>`)[0];
+            popup_0c9ae2e188994dfc90d2093ccc1a1506.setContent(html_98b072459680404b887f3bafadf9a746);
+        
+
+        circle_marker_1dea015a74ac4dda93c6665c20a288da.bindPopup(popup_0c9ae2e188994dfc90d2093ccc1a1506)
+        ;
+
+        
+    
+    
+            var circle_marker_0cb9a7d3f8384630a369335f1bd02e36 = L.circleMarker(
+                [-6.255479999999977, 106.84391000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_bf669741dd174cbe87c1a2a4e8cbf6ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e4f20e754d54b3bb22a0b4d663773de = $(`<div id="html_0e4f20e754d54b3bb22a0b4d663773de" style="width: 100.0%; height: 100.0%;">Neighborhood = CIKOKO,DUREN TIGA,KALIBATA,PANCORAN,PENGADEGAN,RAWAJATI, District = PANCORAN, population = 146156, distance = 9.443693501935716 km</div>`)[0];
+            popup_bf669741dd174cbe87c1a2a4e8cbf6ec.setContent(html_0e4f20e754d54b3bb22a0b4d663773de);
+        
+
+        circle_marker_0cb9a7d3f8384630a369335f1bd02e36.bindPopup(popup_bf669741dd174cbe87c1a2a4e8cbf6ec)
+        ;
+
+        
+    
+    
+            var circle_marker_547c71517acf42b986c4fc1231f7e3ab = L.circleMarker(
+                [-6.2926499999999805, 106.82791000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_1dfc56490f2147d6aa69b4dbbc3b9c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14eaf1997e63494f890af26296f0fefd = $(`<div id="html_14eaf1997e63494f890af26296f0fefd" style="width: 100.0%; height: 100.0%;">Neighborhood = CILANDAK TIMUR,JATI PADANG,KEBAGUSAN,PASAR MINGGU,PEJATEN BARAT,PEJATEN TIMUR,RAGUNAN, District = PASAR MINGGU, population = 272852, distance = 13.802228152160222 km</div>`)[0];
+            popup_1dfc56490f2147d6aa69b4dbbc3b9c0c.setContent(html_14eaf1997e63494f890af26296f0fefd);
+        
+
+        circle_marker_547c71517acf42b986c4fc1231f7e3ab.bindPopup(popup_1dfc56490f2147d6aa69b4dbbc3b9c0c)
+        ;
+
+        
+    
+    
+            var circle_marker_c24e16ff5c0f4e209004dc2acf1dde3a = L.circleMarker(
+                [-6.337689999999952, 106.85755000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_6ece3fd8c6574a31b4487d2af99ce4ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6adda94e018e458ba192bbe4c0bc083e = $(`<div id="html_6adda94e018e458ba192bbe4c0bc083e" style="width: 100.0%; height: 100.0%;">Neighborhood = BARU,CIJANTUNG,GEDONG,KALISARI,PEKAYON, District = PASAR REBO, population = 186509, distance = 18.541604506273405 km</div>`)[0];
+            popup_6ece3fd8c6574a31b4487d2af99ce4ff.setContent(html_6adda94e018e458ba192bbe4c0bc083e);
+        
+
+        circle_marker_c24e16ff5c0f4e209004dc2acf1dde3a.bindPopup(popup_6ece3fd8c6574a31b4487d2af99ce4ff)
+        ;
+
+        
+    
+    
+            var circle_marker_66fed5139bb2442a82ba3adfe0fb908e = L.circleMarker(
+                [-6.116619999999955, 106.77803000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_8aab5ebc469441fe93e26e86c5920dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e11100396d84b23bfe95eb3bc16c794 = $(`<div id="html_2e11100396d84b23bfe95eb3bc16c794" style="width: 100.0%; height: 100.0%;">Neighborhood = KAMAL MUARA,KAPUK MUARA,PEJAGALAN,PENJARINGAN,PLUIT, District = PENJARINGAN, population = 261346, distance = 10.239925002274013 km</div>`)[0];
+            popup_8aab5ebc469441fe93e26e86c5920dd8.setContent(html_2e11100396d84b23bfe95eb3bc16c794);
+        
+
+        circle_marker_66fed5139bb2442a82ba3adfe0fb908e.bindPopup(popup_8aab5ebc469441fe93e26e86c5920dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_375f3e0e85564290b9c058153cb6b015 = L.circleMarker(
+                [-6.236399999999946, 106.75447000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_c89b20abf3294712a5eb4d286d6399f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14d9bd3400d64557b0d4e9f01cdcd0cc = $(`<div id="html_14d9bd3400d64557b0d4e9f01cdcd0cc" style="width: 100.0%; height: 100.0%;">Neighborhood = BINTARO,PESANGGRAHAN,PETUKANGAN SELATAN,PETUKANGAN UTARA,ULUJAMI, District = PESANGGRAHAN, population = 212688, distance = 13.074944040848196 km</div>`)[0];
+            popup_c89b20abf3294712a5eb4d286d6399f3.setContent(html_14d9bd3400d64557b0d4e9f01cdcd0cc);
+        
+
+        circle_marker_375f3e0e85564290b9c058153cb6b015.bindPopup(popup_c89b20abf3294712a5eb4d286d6399f3)
+        ;
+
+        
+    
+    
+            var circle_marker_9085955ba458484f8f5cb56914e65bca = L.circleMarker(
+                [-6.180389999999932, 106.89897000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_c0001225f12948af854bbd465eb7c343 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20b0fd70c4ea46ca9cc752c93a77b383 = $(`<div id="html_20b0fd70c4ea46ca9cc752c93a77b383" style="width: 100.0%; height: 100.0%;">Neighborhood = CIPINANG,JATI,JATINEGARA KAUM,KAYU PUTIH,PISANGAN TIMUR,PULO GADUNG,RAWAMANGUN, District = PULO GADUNG, population = 255983, distance = 5.212609789840275 km</div>`)[0];
+            popup_c0001225f12948af854bbd465eb7c343.setContent(html_20b0fd70c4ea46ca9cc752c93a77b383);
+        
+
+        circle_marker_9085955ba458484f8f5cb56914e65bca.bindPopup(popup_c0001225f12948af854bbd465eb7c343)
+        ;
+
+        
+    
+    
+            var circle_marker_e7b0c7aff621497f9afd5fa54fa9ba90 = L.circleMarker(
+                [-6.171479999999974, 106.82649000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_220a3a0ce10a4b75979882a17d650ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aae250d4a264963a1781de65d93b97b = $(`<div id="html_0aae250d4a264963a1781de65d93b97b" style="width: 100.0%; height: 100.0%;">Neighborhood = BUNGUR,KENARI,KRAMAT,KWITANG,PASEBAN,SENEN, District = S E N E N, population = 111564, distance = 2.905961713035778 km</div>`)[0];
+            popup_220a3a0ce10a4b75979882a17d650ee0.setContent(html_0aae250d4a264963a1781de65d93b97b);
+        
+
+        circle_marker_e7b0c7aff621497f9afd5fa54fa9ba90.bindPopup(popup_220a3a0ce10a4b75979882a17d650ee0)
+        ;
+
+        
+    
+    
+            var circle_marker_9add9d0f9a284044987d8051baa35b2f = L.circleMarker(
+                [-6.15740999999997, 106.83140000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_7249914a5de849afb0143fb36ad1fba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58a7315377a440edaac396aa4c6eace7 = $(`<div id="html_58a7315377a440edaac396aa4c6eace7" style="width: 100.0%; height: 100.0%;">Neighborhood = GUNUNG SAHARI UTARA,KARANG ANYAR,KARTINI,MANGGA DUA SELATAN,PASAR BARU, District = SAWAH BESAR, population = 119201, distance = 2.8051742174426315 km</div>`)[0];
+            popup_7249914a5de849afb0143fb36ad1fba2.setContent(html_58a7315377a440edaac396aa4c6eace7);
+        
+
+        circle_marker_9add9d0f9a284044987d8051baa35b2f.bindPopup(popup_7249914a5de849afb0143fb36ad1fba2)
+        ;
+
+        
+    
+    
+            var circle_marker_d8cc0ac3062d43068cc2437893acfd24 = L.circleMarker(
+                [-6.207359999999937, 106.82713000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_ecbe8eb4c0b6403297f68eb0f99a88a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a421f5b2b4e4da8a373548dac822ba1 = $(`<div id="html_1a421f5b2b4e4da8a373548dac822ba1" style="width: 100.0%; height: 100.0%;">Neighborhood = GUNTUR,KARET,KARET KUNINGAN,KARET SEMANGGI,KUNINGAN TIMUR,MENTENG ATAS,PASAR MANGGIS,SETIA BUDI, District = SETIA BUDI, population = 101986, distance = 4.93693558410448 km</div>`)[0];
+            popup_ecbe8eb4c0b6403297f68eb0f99a88a1.setContent(html_1a421f5b2b4e4da8a373548dac822ba1);
+        
+
+        circle_marker_d8cc0ac3062d43068cc2437893acfd24.bindPopup(popup_ecbe8eb4c0b6403297f68eb0f99a88a1)
+        ;
+
+        
+    
+    
+            var circle_marker_ad1bde9995ff40fbaa0ad529b92f59d9 = L.circleMarker(
+                [-6.153269999999964, 106.82357000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_7063b58a5d22435196a5fc8c043732c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b712baaf5414f95be2ea87ea181a6c7 = $(`<div id="html_2b712baaf5414f95be2ea87ea181a6c7" style="width: 100.0%; height: 100.0%;">Neighborhood = GLODOK,KEAGUNGAN,KRUKUT,MANGGA BESAR,MAPHAR,PINANGSIA,TAMAN SARI,TANGKI, District = TAMAN SARI, population = 120767, distance = 3.7832480498038787 km</div>`)[0];
+            popup_7063b58a5d22435196a5fc8c043732c2.setContent(html_2b712baaf5414f95be2ea87ea181a6c7);
+        
+
+        circle_marker_ad1bde9995ff40fbaa0ad529b92f59d9.bindPopup(popup_7063b58a5d22435196a5fc8c043732c2)
+        ;
+
+        
+    
+    
+            var circle_marker_220871a9db0645b3954c518eeb40b2d6 = L.circleMarker(
+                [-6.151939999999968, 106.80777000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_e322cb443e2149e096f885429a044310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8247a05e8d8e483abb7488c4e5a4eff6 = $(`<div id="html_8247a05e8d8e483abb7488c4e5a4eff6" style="width: 100.0%; height: 100.0%;">Neighborhood = ANGKE,DURI SELATAN,DURI UTARA,JEMBATAN BESI,JEMBATAN LIMA,KALI ANYAR,KRENDANG,PEKOJAN,ROA MALAKA,TAMBORA,TANAH SEREAL, District = TAMBORA, population = 239160, distance = 5.408095139048109 km</div>`)[0];
+            popup_e322cb443e2149e096f885429a044310.setContent(html_8247a05e8d8e483abb7488c4e5a4eff6);
+        
+
+        circle_marker_220871a9db0645b3954c518eeb40b2d6.bindPopup(popup_e322cb443e2149e096f885429a044310)
+        ;
+
+        
+    
+    
+            var circle_marker_277c834538c5415db44982693c10a6fc = L.circleMarker(
+                [-6.207849999999951, 106.81082000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_846f8e90696644579a7312fc0ea08c28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_037e423adde6474ab0fa71fb8aa58af7 = $(`<div id="html_037e423adde6474ab0fa71fb8aa58af7" style="width: 100.0%; height: 100.0%;">Neighborhood = BENDUNGAN HILIR,GELORA,KAMPUNG BALI,KARET TENGSIN,KEBON KACANG,KEBON MELATI,PETAMBURAN, District = TANAH ABANG, population = 158198, distance = 6.187846447565386 km</div>`)[0];
+            popup_846f8e90696644579a7312fc0ea08c28.setContent(html_037e423adde6474ab0fa71fb8aa58af7);
+        
+
+        circle_marker_277c834538c5415db44982693c10a6fc.bindPopup(popup_846f8e90696644579a7312fc0ea08c28)
+        ;
+
+        
+    
+    
+            var circle_marker_16b3f17dfa654b6a9ef2d5b89ee60eb5 = L.circleMarker(
+                [-6.128419999999949, 106.85952000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_423d971b0edb4d249b16fd633aff5b20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d521b98842834d84b0f0c1935917e8ce = $(`<div id="html_d521b98842834d84b0f0c1935917e8ce" style="width: 100.0%; height: 100.0%;">Neighborhood = KEBON BAWANG,PAPANGGO,SUNGAI BAMBU,SUNTER AGUNG,SUNTER JAYA,TANJUNG PRIOK,WARAKAS, District = TANJUNG PRIOK, population = 344086, distance = 4.794082381061806 km</div>`)[0];
+            popup_423d971b0edb4d249b16fd633aff5b20.setContent(html_d521b98842834d84b0f0c1935917e8ce);
+        
+
+        circle_marker_16b3f17dfa654b6a9ef2d5b89ee60eb5.bindPopup(popup_423d971b0edb4d249b16fd633aff5b20)
+        ;
+
+        
+    
+    
+            var circle_marker_5154504221874d74b510bf018a9e9c80 = L.circleMarker(
+                [-6.229389999999967, 106.84971000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fd995e80be9a45b6afc64513808da921);
+        
+    
+        var popup_cdf3c7a59f2a42038065e2d9d1669aad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be562a2fadb94f96b6df1c402270adab = $(`<div id="html_be562a2fadb94f96b6df1c402270adab" style="width: 100.0%; height: 100.0%;">Neighborhood = BUKIT DURI,KEBON BARU,MANGGARAI,MANGGARAI SELATAN,MENTENG DALAM,TEBET BARAT,TEBET TIMUR, District = TEBET, population = 207672, distance = 6.50048968550897 km</div>`)[0];
+            popup_cdf3c7a59f2a42038065e2d9d1669aad.setContent(html_be562a2fadb94f96b6df1c402270adab);
+        
+
+        circle_marker_5154504221874d74b510bf018a9e9c80.bindPopup(popup_cdf3c7a59f2a42038065e2d9d1669aad)
+        ;
+
+        
+    
+</script>
